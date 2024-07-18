@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(90deg, #0c83a3 0%, #000851 100%);
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.container img{
+    margin-top: -100px;
+}
+
+h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-size: 44px;
+    font-weight: 800;
+    margin-top: -150px;
+}
+
+#jokeDisplay{
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: -130px;
+}
+
+#allDads-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 100px;
+}
+
+i{
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+}
+
+button{
+    height: 40px;
+    width: 400px;
+    font-size: larger;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: 400;
+}
+
+button:hover{
+    font-weight: 600;
+    border: solid 1px;
+    cursor: pointer;
+    background: -webkit-linear-gradient(bottom left, rgb(255, 0, 0) 0%, rgb(0, 136, 255) 100%);
+}
