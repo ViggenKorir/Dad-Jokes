@@ -1,4 +1,6 @@
-document.getElementById('dadJokeBtn').addEventListener('click', function () {
+document.getElementById('dadJokeBtn').addEventListener('click', function (event) {
+  event.preventDefault();
+
   fetch('https://icanhazdadjoke.com/', {
     headers: {
       'Accept': 'application/json'
