@@ -1,2 +1,2 @@
-*  Dad Jokes Generator
-* *  API Practice Project
+# Dad Jokes Generator
+##  API Practice Project
