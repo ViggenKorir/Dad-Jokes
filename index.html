@@ -16,7 +16,7 @@
 <body>
     <img id="allDads-img" src="images/allDads.jpg" alt="All Dads">
     <div class="container">
-        <section class="dad-joke-image-section">
+        <section class="dad-joke-image-section">`
             <img src="" id="dad-joke-img" />
         </section>
 
@@ -35,7 +35,26 @@
         <img id="the-dad" src="images/dadJokes.png" alt="All Dads">
         <img id="dad-img" src="images/dad.jpg" alt="dad">
     </div>
-    
+
+    <section id="form-section">
+        <h2>Got any dad jokes to share?</h2>
+
+        <p>Fill out the form below to send your own dad jokes!</p>
+
+        <form id="userForm" action="/submit" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="comment">Comment (optional):</label><br>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br><br>
+
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </section>
+
     <script src="script.js"></script>
 </body>
 

@@ -80,3 +80,32 @@ button:hover {
     cursor: pointer;
     background: -webkit-linear-gradient(bottom left, rgb(255, 0, 0) 0%, rgb(0, 136, 255) 100%);
 }
+
+form{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#form-section{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+input{
+    height: 30px;
+    width: 400px;
+    font-size: 18px;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
