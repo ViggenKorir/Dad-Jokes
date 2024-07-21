@@ -50,8 +50,6 @@ document.getElementById('userForm').addEventListener('submit', function (event) 
       console.log('User added:', data);
       // Optionally clear the form
       document.getElementById('userForm').reset();
-      // Fetch updated user list
-      fetchUsers();
     })
     .catch(error => {
       console.error('Error:', error);
